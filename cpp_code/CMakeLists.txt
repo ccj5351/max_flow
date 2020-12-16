@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.8)
+add_definitions(-std=c++11)
+project (ford-fulkerson-algorithm)
+include_directories (${PROJECT_SOURCE_DIR})
+add_executable (max-flow max-flow.cpp)
+set (EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)

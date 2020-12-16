@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+##########################
+# For this project
+cpp_code/build
